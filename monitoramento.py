@@ -50,7 +50,20 @@ if not all_logs.empty:
     ax1.set_ylabel("Número de Logs")
     st.pyplot(fig1)
 
-    # Heatmap: Ocorrências por hora
+     # Heatmap: Ocorrências por hora
     st.subheader("Ocorrências de Logs por Hora")
     hourly_logs = all_logs.groupby(["Hour", "Category"]).size().unstack(fill_value=0)
-    fig2, ax2 = plt.subplots(figsize=(
+    fig2, ax2 = plt.subplots(figsize=(10, 5))
+    sns.heatmap(hourly_logs, cmap="coolwarm", ax=ax2)
+    ax2.set_title("Heatmap de Ocorrências por Hora")
+    st.pyplot(fig2)
+
+    # Destaques de eventos críticos
+    st.subheader("Eventos Críticos")
+    critical_events = all_logs[all_logs["Level"] == "ERROR"].sort_values("Timestamp", ascending=False).head(10)
+    st.write(critical_events)
+
+# Mensagem caso não existam logs
+else:
+    st.title("Monitoramento de Logs - Tempo Real")
+    st.write("Nenhum log encontrado. Por favor, verifique o diretório de logs.")
