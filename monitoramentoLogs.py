@@ -24,7 +24,7 @@ def load_logs_from_url(url):
         for line in response.text.splitlines():
             try:
                 timestamp, _, level, message = line.split(" - ", maxsplit=3)
-                data.append({"Timestamp": timestamp.strip("[]"), "Level": level, "Message": message})
+                data.append({"Timestamp": timestamp.strip("[]"), "Level": level, "Message": message, "Category": url.split("/")[-2]})
             except ValueError:
                 continue
         return pd.DataFrame(data)
@@ -39,23 +39,46 @@ all_logs = pd.concat([load_logs_from_url(url) for url in log_files_urls], ignore
 if all_logs.empty:
     st.warning("Nenhum log foi carregado. Verifique as URLs ou a conectividade.")
 else:
-    st.success(f"{len(all_logs)} logs carregados com sucesso!")
-
     # Processar os dados
     all_logs["Timestamp"] = pd.to_datetime(all_logs["Timestamp"], errors="coerce")
     all_logs.dropna(subset=["Timestamp"], inplace=True)
     all_logs["Date"] = all_logs["Timestamp"].dt.date
     all_logs["Hour"] = all_logs["Timestamp"].dt.hour
 
+    # Menu lateral
+    st.sidebar.header("Configurações de Filtro")
+    mode = st.sidebar.radio("Modo de Análise", ["Rastreamento Online", "Análise por Intervalo de Tempo"])
+    
+    # Configurações de filtros
+    selected_category = st.sidebar.multiselect("Selecionar Categorias", categories, default=categories)
+    selected_level = st.sidebar.multiselect("Selecionar Níveis", ["INFO", "WARNING", "ERROR"], default=["INFO", "WARNING", "ERROR"])
+
+    if mode == "Análise por Intervalo de Tempo":
+        start_date = st.sidebar.date_input("Data Inicial", value=all_logs["Date"].min())
+        end_date = st.sidebar.date_input("Data Final", value=all_logs["Date"].max())
+        filtered_logs = all_logs[
+            (all_logs["Category"].isin(selected_category)) &
+            (all_logs["Level"].isin(selected_level)) &
+            (all_logs["Date"] >= start_date) &
+            (all_logs["Date"] <= end_date)
+        ]
+        st.info(f"Mostrando logs de {start_date} até {end_date}.")
+    else:
+        filtered_logs = all_logs[
+            (all_logs["Category"].isin(selected_category)) &
+            (all_logs["Level"].isin(selected_level))
+        ]
+        st.info("Rastreamento online ativado.")
+
     # Estatísticas gerais
     st.title("Monitoramento de Logs - Tempo Real")
     st.subheader("Estatísticas Gerais")
-    st.write(f"Total de Logs: {len(all_logs)}")
-    st.write(f"Logs Críticos (ERROR): {len(all_logs[all_logs['Level'] == 'ERROR'])}")
+    st.write(f"Total de Logs Filtrados: {len(filtered_logs)}")
+    st.write(f"Logs Críticos (ERROR): {len(filtered_logs[filtered_logs['Level'] == 'ERROR'])}")
 
     # Gráfico de barras: Logs por categoria
     st.subheader("Logs por Categoria")
-    category_counts = all_logs["Message"].str.split(":").str[0].value_counts()
+    category_counts = filtered_logs["Category"].value_counts()
     fig1, ax1 = plt.subplots(figsize=(10, 5))
     category_counts.plot(kind="bar", ax=ax1)
     ax1.set_title("Logs por Categoria")
@@ -65,7 +88,7 @@ else:
 
     # Heatmap: Ocorrências por hora
     st.subheader("Ocorrências de Logs por Hora")
-    hourly_logs = all_logs.groupby(["Hour", "Level"]).size().unstack(fill_value=0)
+    hourly_logs = filtered_logs.groupby(["Hour", "Level"]).size().unstack(fill_value=0)
     fig2, ax2 = plt.subplots(figsize=(10, 5))
     sns.heatmap(hourly_logs, cmap="coolwarm", ax=ax2)
     ax2.set_title("Heatmap de Ocorrências por Hora")
@@ -73,6 +96,17 @@ else:
 
     # Destaques de eventos críticos
     st.subheader("Eventos Críticos")
-    critical_events = all_logs[all_logs["Level"] == "ERROR"].sort_values("Timestamp", ascending=False).head(10)
+    critical_events = filtered_logs[filtered_logs["Level"] == "ERROR"].sort_values("Timestamp", ascending=False).head(10)
     st.write(critical_events)
+
+    # Exportar logs filtrados
+    st.subheader("Exportar Dados Filtrados")
+    csv = filtered_logs.to_csv(index=False)
+    st.download_button(
+        label="Baixar Logs Filtrados",
+        data=csv,
+        file_name="logs_filtrados.csv",
+        mime="text/csv"
+    )
+
 
