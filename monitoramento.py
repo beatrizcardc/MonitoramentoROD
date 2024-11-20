@@ -11,7 +11,8 @@ st.set_page_config(layout="wide", page_title="Monitoramento de Logs em Tempo Rea
 
 # Função para carregar os logs
 def load_logs(log_dir):
-    log_files = glob.glob(log_dir + "logs_demo/*/logs.txt")
+    #log_files = glob.glob(log_dir + "/*/logs.txt")
+    log_files = glob.glob(os.path.join(log_dir, "*/logs.txt"))
     all_logs = []
     for file in log_files:
         category = file.split("/")[-2]
