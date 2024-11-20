@@ -1,0 +1,22 @@
+[2024-10-22 03:22:07.864169] - Autenticacao - ERROR - Multiple failed login attempts.
+[2024-10-23 10:59:02.864169] - Autenticacao - INFO - Successful login from unknown device.
+[2024-10-24 08:56:04.864169] - Autenticacao - WARNING - Successful login from unknown device.
+[2024-10-24 10:32:13.864169] - Autenticacao - ERROR - Suspicious login from IP 192.168.1.200.
+[2024-10-23 22:23:12.864169] - Autenticacao - INFO - Multiple failed login attempts.
+[2024-10-25 11:24:35.864169] - Autenticacao - ERROR - Successful login from unknown device.
+[2024-10-25 17:06:35.864169] - Autenticacao - INFO - Successful login from unknown device.
+[2024-10-26 08:57:43.864169] - Autenticacao - ERROR - Successful login from unknown device.
+[2024-10-25 16:42:46.864169] - Autenticacao - INFO - Successful login from unknown device.
+[2024-10-26 07:10:46.864169] - Autenticacao - INFO - Suspicious login from IP 192.168.1.200.
+[2024-10-26 00:55:31.864169] - Autenticacao - ERROR - Multiple failed login attempts.
+[2024-10-25 22:49:31.864169] - Autenticacao - WARNING - Successful login from unknown device.
+[2024-10-26 22:57:35.864169] - Autenticacao - WARNING - Successful login from unknown device.
+[2024-10-27 16:33:16.864169] - Autenticacao - WARNING - Suspicious login from IP 192.168.1.200.
+[2024-10-28 06:28:17.864169] - Autenticacao - WARNING - Suspicious login from IP 192.168.1.200.
+[2024-10-28 18:40:32.864169] - Autenticacao - WARNING - Multiple failed login attempts.
+[2024-10-28 13:14:51.864169] - Autenticacao - WARNING - Successful login from unknown device.
+[2024-10-29 21:00:37.864169] - Autenticacao - ERROR - Multiple failed login attempts.
+[2024-10-30 17:22:40.864169] - Autenticacao - ERROR - Successful login from unknown device.
+[2024-10-31 18:28:25.864169] - Autenticacao - ERROR - Multiple failed login attempts.
+[2024-11-02 08:34:45.864169] - Autenticacao - INFO - Multiple failed login attempts.
+[2024-11-03 01:17:00.864169] - Autenticacao - INFO - Successful login from unknown device.

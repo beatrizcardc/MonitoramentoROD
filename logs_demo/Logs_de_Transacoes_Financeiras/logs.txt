@@ -1,0 +1,49 @@
+[2024-10-22 08:49:11.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-10-23 04:03:31.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-10-22 16:48:10.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-10-23 04:01:43.864169] - Logs_de_Transacoes_Financeiras - INFO - Transaction ID 5487 failed due to insufficient funds.
+[2024-10-23 06:30:15.864169] - Logs_de_Transacoes_Financeiras - INFO - Unusual transaction pattern identified.
+[2024-10-23 01:23:47.864169] - Logs_de_Transacoes_Financeiras - ERROR - Fraudulent transaction detected: $10,000.
+[2024-10-22 19:09:15.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-10-23 07:38:03.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-10-23 10:32:03.864169] - Logs_de_Transacoes_Financeiras - ERROR - Unusual transaction pattern identified.
+[2024-10-23 21:12:02.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-10-25 06:04:04.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-10-26 09:16:55.864169] - Logs_de_Transacoes_Financeiras - ERROR - Transaction ID 5487 failed due to insufficient funds.
+[2024-10-25 16:02:42.864169] - Logs_de_Transacoes_Financeiras - ERROR - Unusual transaction pattern identified.
+[2024-10-25 17:04:13.864169] - Logs_de_Transacoes_Financeiras - ERROR - Fraudulent transaction detected: $10,000.
+[2024-10-26 04:46:24.864169] - Logs_de_Transacoes_Financeiras - WARNING - Transaction ID 5487 failed due to insufficient funds.
+[2024-10-27 04:19:11.864169] - Logs_de_Transacoes_Financeiras - ERROR - Fraudulent transaction detected: $10,000.
+[2024-10-28 06:50:24.864169] - Logs_de_Transacoes_Financeiras - INFO - Transaction ID 5487 failed due to insufficient funds.
+[2024-10-27 12:59:09.864169] - Logs_de_Transacoes_Financeiras - INFO - Fraudulent transaction detected: $10,000.
+[2024-10-27 20:45:02.864169] - Logs_de_Transacoes_Financeiras - INFO - Transaction ID 5487 failed due to insufficient funds.
+[2024-10-27 13:19:59.864169] - Logs_de_Transacoes_Financeiras - INFO - Unusual transaction pattern identified.
+[2024-10-28 00:30:02.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-10-29 05:11:05.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-10-29 13:51:03.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-10-30 23:44:56.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-10-31 07:59:36.864169] - Logs_de_Transacoes_Financeiras - ERROR - Unusual transaction pattern identified.
+[2024-10-30 14:18:43.864169] - Logs_de_Transacoes_Financeiras - INFO - Unusual transaction pattern identified.
+[2024-10-31 18:48:29.864169] - Logs_de_Transacoes_Financeiras - ERROR - Unusual transaction pattern identified.
+[2024-11-01 04:40:05.864169] - Logs_de_Transacoes_Financeiras - INFO - Unusual transaction pattern identified.
+[2024-10-31 14:14:37.864169] - Logs_de_Transacoes_Financeiras - INFO - Transaction ID 5487 failed due to insufficient funds.
+[2024-11-02 04:51:31.864169] - Logs_de_Transacoes_Financeiras - INFO - Transaction ID 5487 failed due to insufficient funds.
+[2024-11-02 06:37:36.864169] - Logs_de_Transacoes_Financeiras - INFO - Transaction ID 5487 failed due to insufficient funds.
+[2024-11-03 04:50:10.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-11-03 23:06:41.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-11-03 14:45:59.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-11-03 22:24:07.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-11-04 18:48:29.864169] - Logs_de_Transacoes_Financeiras - WARNING - Transaction ID 5487 failed due to insufficient funds.
+[2024-11-04 23:21:17.864169] - Logs_de_Transacoes_Financeiras - INFO - Transaction ID 5487 failed due to insufficient funds.
+[2024-11-05 07:35:31.864169] - Logs_de_Transacoes_Financeiras - WARNING - Transaction ID 5487 failed due to insufficient funds.
+[2024-11-05 02:59:30.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.
+[2024-11-05 21:40:34.864169] - Logs_de_Transacoes_Financeiras - INFO - Fraudulent transaction detected: $10,000.
+[2024-11-05 15:40:38.864169] - Logs_de_Transacoes_Financeiras - ERROR - Fraudulent transaction detected: $10,000.
+[2024-11-07 08:46:03.864169] - Logs_de_Transacoes_Financeiras - INFO - Unusual transaction pattern identified.
+[2024-11-07 08:39:29.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-11-06 19:27:10.864169] - Logs_de_Transacoes_Financeiras - ERROR - Unusual transaction pattern identified.
+[2024-11-06 12:36:37.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-11-07 21:45:48.864169] - Logs_de_Transacoes_Financeiras - WARNING - Unusual transaction pattern identified.
+[2024-11-09 10:20:51.864169] - Logs_de_Transacoes_Financeiras - ERROR - Unusual transaction pattern identified.
+[2024-11-09 03:11:20.864169] - Logs_de_Transacoes_Financeiras - INFO - Transaction ID 5487 failed due to insufficient funds.
+[2024-11-10 02:47:29.864169] - Logs_de_Transacoes_Financeiras - WARNING - Fraudulent transaction detected: $10,000.

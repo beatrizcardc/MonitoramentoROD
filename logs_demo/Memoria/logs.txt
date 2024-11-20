@@ -1,0 +1,39 @@
+[2024-10-21 20:16:13.864169] - Memoria - INFO - Memory allocation failed for process ID 3245.
+[2024-10-23 07:56:24.864169] - Memoria - ERROR - Memory allocation failed for process ID 3245.
+[2024-10-23 18:30:56.864169] - Memoria - ERROR - Heap memory utilization at 80%.
+[2024-10-23 12:12:58.864169] - Memoria - ERROR - Heap memory utilization at 80%.
+[2024-10-23 17:47:29.864169] - Memoria - WARNING - Memory leak detected in Module_XYZ.
+[2024-10-23 11:58:26.864169] - Memoria - WARNING - Memory allocation failed for process ID 3245.
+[2024-10-25 01:21:27.864169] - Memoria - WARNING - Memory leak detected in Module_XYZ.
+[2024-10-25 11:37:00.864169] - Memoria - ERROR - Memory allocation failed for process ID 3245.
+[2024-10-27 04:44:57.864169] - Memoria - ERROR - Memory leak detected in Module_XYZ.
+[2024-10-27 22:33:46.864169] - Memoria - INFO - Memory leak detected in Module_XYZ.
+[2024-10-28 06:54:55.864169] - Memoria - WARNING - Memory leak detected in Module_XYZ.
+[2024-10-29 08:22:46.864169] - Memoria - WARNING - Memory leak detected in Module_XYZ.
+[2024-10-30 01:21:14.864169] - Memoria - WARNING - Memory allocation failed for process ID 3245.
+[2024-10-29 19:00:21.864169] - Memoria - ERROR - Memory allocation failed for process ID 3245.
+[2024-10-31 01:57:54.864169] - Memoria - INFO - Memory allocation failed for process ID 3245.
+[2024-10-30 16:53:39.864169] - Memoria - ERROR - Memory leak detected in Module_XYZ.
+[2024-11-01 03:21:47.864169] - Memoria - ERROR - Heap memory utilization at 80%.
+[2024-11-02 07:10:35.864169] - Memoria - WARNING - Memory allocation failed for process ID 3245.
+[2024-11-03 01:54:31.864169] - Memoria - INFO - Memory allocation failed for process ID 3245.
+[2024-11-02 22:50:59.864169] - Memoria - WARNING - Memory allocation failed for process ID 3245.
+[2024-11-02 19:23:33.864169] - Memoria - WARNING - Heap memory utilization at 80%.
+[2024-11-03 13:09:07.864169] - Memoria - WARNING - Memory leak detected in Module_XYZ.
+[2024-11-05 01:14:14.864169] - Memoria - WARNING - Memory allocation failed for process ID 3245.
+[2024-11-05 15:49:02.864169] - Memoria - ERROR - Heap memory utilization at 80%.
+[2024-11-06 21:43:08.864169] - Memoria - ERROR - Memory leak detected in Module_XYZ.
+[2024-11-08 00:44:26.864169] - Memoria - INFO - Memory allocation failed for process ID 3245.
+[2024-11-07 22:01:41.864169] - Memoria - WARNING - Memory allocation failed for process ID 3245.
+[2024-11-08 03:39:58.864169] - Memoria - WARNING - Memory allocation failed for process ID 3245.
+[2024-11-09 08:26:06.864169] - Memoria - WARNING - Heap memory utilization at 80%.
+[2024-11-10 10:54:11.864169] - Memoria - ERROR - Heap memory utilization at 80%.
+[2024-11-09 13:58:26.864169] - Memoria - WARNING - Heap memory utilization at 80%.
+[2024-11-10 07:13:19.864169] - Memoria - INFO - Memory leak detected in Module_XYZ.
+[2024-11-11 03:15:20.864169] - Memoria - ERROR - Memory allocation failed for process ID 3245.
+[2024-11-11 08:24:13.864169] - Memoria - ERROR - Heap memory utilization at 80%.
+[2024-11-11 21:27:53.864169] - Memoria - ERROR - Memory allocation failed for process ID 3245.
+[2024-11-12 06:11:43.864169] - Memoria - ERROR - Heap memory utilization at 80%.
+[2024-11-13 07:43:13.864169] - Memoria - ERROR - Memory allocation failed for process ID 3245.
+[2024-11-14 01:42:17.864169] - Memoria - WARNING - Memory allocation failed for process ID 3245.
+[2024-11-14 05:44:32.864169] - Memoria - INFO - Memory leak detected in Module_XYZ.

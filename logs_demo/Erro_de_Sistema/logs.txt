@@ -1,0 +1,21 @@
+[2024-10-22 01:34:58.864169] - Erro_de_Sistema - INFO - Kernel panic occurred at 14:32:45.
+[2024-10-23 06:50:11.864169] - Erro_de_Sistema - WARNING - System reboot required after error.
+[2024-10-22 17:50:18.864169] - Erro_de_Sistema - ERROR - Kernel panic occurred at 14:32:45.
+[2024-10-23 16:58:37.864169] - Erro_de_Sistema - INFO - Uncaught exception in Module_Y.
+[2024-10-24 11:29:32.864169] - Erro_de_Sistema - ERROR - Uncaught exception in Module_Y.
+[2024-10-25 02:55:09.864169] - Erro_de_Sistema - ERROR - Kernel panic occurred at 14:32:45.
+[2024-10-25 22:11:37.864169] - Erro_de_Sistema - INFO - Kernel panic occurred at 14:32:45.
+[2024-10-25 21:26:09.864169] - Erro_de_Sistema - INFO - System reboot required after error.
+[2024-10-26 23:27:04.864169] - Erro_de_Sistema - INFO - Uncaught exception in Module_Y.
+[2024-10-28 02:58:12.864169] - Erro_de_Sistema - WARNING - System reboot required after error.
+[2024-10-28 08:52:22.864169] - Erro_de_Sistema - WARNING - Kernel panic occurred at 14:32:45.
+[2024-10-28 01:38:31.864169] - Erro_de_Sistema - INFO - Uncaught exception in Module_Y.
+[2024-10-28 11:19:28.864169] - Erro_de_Sistema - INFO - System reboot required after error.
+[2024-10-28 14:53:20.864169] - Erro_de_Sistema - INFO - Uncaught exception in Module_Y.
+[2024-10-29 20:16:02.864169] - Erro_de_Sistema - WARNING - Kernel panic occurred at 14:32:45.
+[2024-10-31 02:45:32.864169] - Erro_de_Sistema - INFO - System reboot required after error.
+[2024-10-31 16:52:56.864169] - Erro_de_Sistema - INFO - Uncaught exception in Module_Y.
+[2024-11-01 18:48:08.864169] - Erro_de_Sistema - WARNING - Uncaught exception in Module_Y.
+[2024-11-02 16:54:29.864169] - Erro_de_Sistema - INFO - System reboot required after error.
+[2024-11-02 14:58:53.864169] - Erro_de_Sistema - INFO - Kernel panic occurred at 14:32:45.
+[2024-11-02 20:15:27.864169] - Erro_de_Sistema - WARNING - Kernel panic occurred at 14:32:45.
